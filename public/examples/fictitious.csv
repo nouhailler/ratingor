@@ -1,0 +1,2 @@
+id,companyId,companyName,aliases,country,sector,agencyId,type,instrument,currency,grade,outlook,action,publishedAt,collectedAt,sourceUrl,verification,rights,rightsEvidence,supersedes
+fictitious-1,demo-alpine,FICTIF — Alpine Exemple SA,EXEMPLE,CH,company,scope,issuer-long-term,,,BBB,stable,assigned,2025-01-15,2025-01-16T12:00:00Z,https://example.com/fictitious-not-a-rating,imported,redistributable,https://example.com/fictitious-license,

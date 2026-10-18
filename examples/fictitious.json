@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fictitious-1",
+    "companyId": "demo-alpine",
+    "companyName": "FICTIF — Alpine Exemple SA",
+    "aliases": [
+      "EXEMPLE"
+    ],
+    "country": "CH",
+    "sector": "company",
+    "agencyId": "scope",
+    "type": "issuer-long-term",
+    "instrument": null,
+    "currency": null,
+    "grade": "BBB",
+    "outlook": "stable",
+    "action": "assigned",
+    "publishedAt": "2025-01-15",
+    "collectedAt": "2025-01-16T12:00:00Z",
+    "sourceUrl": "https://example.com/fictitious-not-a-rating",
+    "verification": "imported",
+    "rights": "redistributable",
+    "rightsEvidence": "https://example.com/fictitious-license",
+    "supersedes": null
+  }
+]
