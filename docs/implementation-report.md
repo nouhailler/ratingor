@@ -1,5 +1,7 @@
 # Rapport d’implémentation — 18 octobre 2026
 
+> État historique. Pour les corrections d’accessibilité, la CI et la publication demandées le 22 octobre, consulter [la validation actualisée](validation-2026-10-22.md).
+
 Le MVP local est construit. Le catalogue démarre vide. Les imports JSON/CSV permettent de consulter des notes, conserver les événements et leurs sources, rechercher, comparer et consulter hors ligne après activation du cache. Aucun enregistrement réel n’a été inventé ou préchargé. Aucun déploiement public effectué.
 
 | Fonctionnalité | État | Preuve | Limite restante |

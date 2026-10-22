@@ -48,10 +48,10 @@ export const sources=[
  ['ESMA ERP','https://registers.esma.europa.eu/publication/','manuel uniquement','Droits ERP et export non établis.'],
  ['ESMA CEREP','https://registers.esma.europa.eu/cerep-publication/','manuel uniquement','Statistiques agrégées ; pas de notes individuelles importables directement.'],
  ['S&P Global Ratings','https://www.spglobal.com/ratings/','manuel uniquement','Restrictions de redistribution ; aucune licence acquise.'],
- ['Moody’s','https://ratings.moodys.com/','bloqué','Contenu non exploitable pendant le test de lecture.'],
- ['Fitch Ratings','https://www.fitchratings.com/','manuel uniquement','Droits et interface automatisée non validés.'],
+ ['Moody’s','https://ratings.moodys.com/','bloqué','Accès automatisé interdit par les conditions consultées ; page non exploitable.'],
+ ['Fitch Ratings','https://www.fitchratings.com/','manuel uniquement','Copie et redistribution soumises à accord écrit ; aucun accord acquis.'],
  ['Scope Ratings','https://www.scoperatings.com/','bloqué','Page dynamique non exploitable pendant le test.'],
- ['Morningstar DBRS','https://dbrs.morningstar.com/','manuel uniquement','Droits de redistribution non acquis.'],
+ ['Morningstar DBRS','https://dbrs.morningstar.com/','manuel uniquement','Collecte automatisée soumise à accord écrit préalable ; aucun accord acquis.'],
  ['SEC EDGAR','https://data.sec.gov/','manuel uniquement','API submissions/XBRL documentée, sans CORS ; aucune API de notes validée.']
 ];
 export async function collect(source:string):Promise<never>{throw Error(`Collecte ${source} désactivée : accès et droits non validés. Utilisez un import autorisé.`)}

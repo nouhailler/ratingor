@@ -2,6 +2,8 @@
 
 PWA documentaire gratuite de suivi des notations de crédit. React, TypeScript, Vite. Sans backend obligatoire, compte, clé ou abonnement. Interface française et catalogue vide au premier lancement.
 
+Voir le [bilan actualisé du 22 octobre](docs/validation-2026-10-22.md) pour la CI, l’accessibilité et la mise en ligne.
+
 ## Installer et lancer
 
 Node.js 22 et npm. Depuis la racine :
@@ -43,7 +45,7 @@ Charger une première fois la version de production, attendre l'activation du Se
 
 Commande : `npm ci && npm run build`. Publier le dossier `dist/` sur une offre statique gratuite (par exemple GitHub Pages). Le build utilise des chemins relatifs et des routes `#`, compatibles avec un sous-répertoire et le rechargement sans réécriture serveur. Le serveur doit fournir HTTPS (localhost est accepté pour les tests), les types MIME corrects et ne pas cacher durablement `sw.js` ou `index.html` (revalidation conseillée). Les assets avec hash peuvent être mis en cache longtemps. Aucun secret à configurer.
 
-Après publication, contrôler HTTPS, manifeste, Service Worker, rechargement, import et persistance, puis couper le réseau et recharger. Aucun déploiement externe n'a été réalisé dans cette tâche : la disponibilité, les limites actuelles des offres et les tests HTTPS restent à confirmer sur la plateforme choisie.
+Après publication, contrôler HTTPS, manifeste, Service Worker, rechargement, import et persistance, puis couper le réseau et recharger. L’état de publication et les vérifications HTTPS sont consignés dans le bilan actualisé lié ci-dessus.
 
 Une mise à jour de l'application crée un nouveau cache versionné ; fermer tous les onglets pour permettre l'activation. Les données ne se mettent pas à jour seules : importer un nouveau fichier autorisé. Le schéma de stockage actuel est v1 ; ne pas changer son format sans migration.
 
@@ -56,3 +58,7 @@ Aucun connecteur réseau de notations n'est activé. Les documents CEREP sont ag
 ## Licence
 
 Code sous MIT. Les données importées et les publications tierces restent soumises à leurs propres droits. Les fixtures sont fictives, sous MIT.
+
+## Intégration continue et accessibilité
+
+Le workflow `.github/workflows/ci.yml` installe les dépendances, exécute les tests unitaires, construit la PWA et vérifie les parcours Chromium ainsi que l’accessibilité axe sur pages vides et remplies (desktop/mobile). Les rapports HTML, captures et traces d’échec sont conservés 14 jours dans les artefacts GitHub Actions. Un résultat axe sans violation ne certifie pas la conformité WCAG ; les contrôles humains restants sont documentés dans le bilan actualisé.
