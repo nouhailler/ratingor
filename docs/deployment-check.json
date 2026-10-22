@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-10-22T13:09:17.532Z",
+  "url": "https://ratingor-credit-register.robertdenero.chatgpt.site",
+  "access": "private-owner",
+  "method": "Authenticated HTTPS GET with the Sites-provided owner verification credential; normal TLS verification enabled.",
+  "results": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "matchesBuild": false,
+      "bytes": 1449,
+      "expectedAppMarkup": true,
+      "externalScriptOrigins": [
+        "https://ratingor-credit-register.robertdenero.chatgpt.site"
+      ]
+    },
+    {
+      "path": "manifest.webmanifest",
+      "status": 200,
+      "contentType": "application/manifest+json",
+      "matchesBuild": true,
+      "bytes": 361
+    },
+    {
+      "path": "sw.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "matchesBuild": true,
+      "bytes": 989
+    },
+    {
+      "path": "icon-192.png",
+      "status": 200,
+      "contentType": "image/png",
+      "matchesBuild": true,
+      "bytes": 3267
+    },
+    {
+      "path": "icon-512.png",
+      "status": 200,
+      "contentType": "image/png",
+      "matchesBuild": true,
+      "bytes": 9383
+    },
+    {
+      "path": "assets/index-B4YLAyat.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "matchesBuild": true,
+      "bytes": 325697
+    },
+    {
+      "path": "assets/index-D5m8wBML.css",
+      "status": 200,
+      "contentType": "text/css",
+      "matchesBuild": true,
+      "bytes": 9700
+    }
+  ],
+  "remoteBrowserOfflineTested": false
+}

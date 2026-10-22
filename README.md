@@ -2,6 +2,8 @@
 
 PWA documentaire gratuite de suivi des notations de crédit. React, TypeScript, Vite. Sans backend obligatoire, compte, clé ou abonnement. Interface française et catalogue vide au premier lancement.
 
+Application publiée en accès privé : [ouvrir Ratingor](https://ratingor-credit-register.robertdenero.chatgpt.site) (connexion ChatGPT requise). [CI vérifiée avec succès](https://github.com/nouhailler/ratingor/actions/runs/39783805682).
+
 Voir le [bilan actualisé du 22 octobre](docs/validation-2026-10-22.md) pour la CI, l’accessibilité et la mise en ligne.
 
 ## Installer et lancer
